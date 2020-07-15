@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_above="@id/pb_splash_screen"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_my_launcher_foreground" />
+
+    <ProgressBar
+        android:id="@+id/pb_splash_screen"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateTint="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pb_splash_screen"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/corona_data_app"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+</RelativeLayout>

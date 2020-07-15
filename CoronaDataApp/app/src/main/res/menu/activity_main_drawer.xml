@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/local">
+        <menu>
+            <item
+                android:id="@+id/nav_item_indonesia"
+                android:title="@string/indonesia" />
+            <item
+                android:id="@+id/nav_item_indonesia_detail"
+                android:title="@string/detail_province" />
+        </menu>
+    </item>
+
+    <item android:title="@string/global">
+        <menu>
+            <item
+                android:id="@+id/nav_item_global"
+                android:title="@string/global" />
+            <item
+                android:id="@+id/nav_item_global_detail"
+                android:title="@string/detail_global" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_item_about"
+        android:title="@string/about" />
+</menu>
