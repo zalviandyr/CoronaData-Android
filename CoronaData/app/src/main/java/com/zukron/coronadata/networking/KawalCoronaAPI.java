@@ -6,5 +6,5 @@ package com.zukron.coronadata.networking;
  */
 public interface KawalCoronaAPI {
     String baseUrl = "https://api.kawalcorona.com/";
-    String province = baseUrl + "indonesia/provinsi";
+    String province = baseUrl + "indonesia/provinsi/";
 }
